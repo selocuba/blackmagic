@@ -26,7 +26,7 @@
 #include <stddef.h>
 #include "jtagtap.h"
 
-#define JTAG_MAX_DEVS   32U
+#define JTAG_MAX_DEVS   64U
 #define JTAG_MAX_IR_LEN 32U /* NOTE: This is not long enough for all Xilinx devices */
 
 typedef struct jtag_dev {
