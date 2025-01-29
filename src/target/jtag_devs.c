@@ -87,7 +87,7 @@ const jtag_dev_descr_s dev_descr[] = {
 		.descr = "STM32F3xx.",
 	},
 	{
-		.idcode = 0x2d43b041,
+		.idcode = 0x2d43b041U,
 		.idmask = 0xffffffffU,
 		.descr = "STM32F4xx.",
 	},
